@@ -1,4 +1,9 @@
-usage:
+## Usage
+
+### Default setup
+Create a manifest that has the following code:
+
+```puppet
 node 'pup1.pp.ciklum.com' {
 
   $adminemail = 'webmaster@pup1.pp.ciklum.com'
@@ -19,3 +24,4 @@ node 'pup1.pp.ciklum.com' {
  #  include php
  #  include mysql
  # }
+```
