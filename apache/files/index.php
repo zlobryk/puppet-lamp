@@ -16,7 +16,8 @@ if (!$result) {
     echo 'MySQL error: ' . mysql_error();
     exit;
 }
-
+    echo "Database <B>$dbname</b> content:\n";
+    echo "<br>";
 while ($row = mysql_fetch_row($result)) {
     echo "Table: {$row[0]}\n";
     echo "<br>";
