@@ -4,7 +4,7 @@
 Create a manifest that has the following code:
 
 ```puppet
-node 'pup1.pp.ciklum.com' {
+node 'ubuntu.example.com' {
 
   $adminemail = 'webmaster@example.com'
   $servername = 'ubuntu.example.com'
