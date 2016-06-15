@@ -6,8 +6,8 @@ Create a manifest that has the following code:
 ```puppet
 node 'pup1.pp.ciklum.com' {
 
-  $adminemail = 'webmaster@pup1.pp.ciklum.com'
-  $servername = 'pup1.pp.ciklum.com'
+  $adminemail = 'webmaster@example.com'
+  $servername = 'ubuntu.example.com'
  #Password for mysql database
  $mysql_password = "myT0pS3cretPa55worD"
   include apache
